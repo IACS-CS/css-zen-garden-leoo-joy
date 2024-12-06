@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Cookie&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Megrim&family=Nuosu+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Cookie&family=Genos:ital,wght@0,100..900;1,100..900&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Megrim&family=Nuosu+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Cookie&family=Genos:ital,wght@0,100..900;1,100..900&family=Iceland&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Megrim&family=Nuosu+SIL&display=swap');
+
 /********************************** 
 * Design by:  [your name]
 * Design name:  [your design name]
@@ -15,12 +19,14 @@
 /* Starter code -- feel free to delete */
 
 /* Typography */
+body{
+  color: white;
+}
 
 /* Get your own import URL from Google Fonts */
 
   /* Main font */
   font-family: Poppins, sans-serif;
-}
 h1,
 h2,
 h3,
@@ -31,9 +37,13 @@ h6 {
   font-family: "Dancing Script", cursive;
 }
 
-/* Background */
+/* Background */ /*used W3Schools for help*/
 #css-zen-garden {
-  background: 
-  
+    background-image: url("/picsss/rocketspace.jpg");
+    height: 1300px;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
 }
 /* Page wrapper */
+  
