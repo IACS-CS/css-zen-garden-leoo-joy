@@ -20,7 +20,8 @@
 
 /* Typography */
 body{
-  color: white;
+  color: #304529;
+  box-shadow: 0 200px 500px white;
 }
 
 /* Get your own import URL from Google Fonts */
@@ -44,6 +45,142 @@ h6 {
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
+    background-color: transparent;
+    background-attachment: fixed;
+    -moz-background-size: auto 100%, auto 100%;
+    -o-background-size: auto 100%, auto 100%;
+
+} 
+
+h1 ,h2, h3, h4, h5, h6{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Megrim;
+}
+
+.summary{
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Genos;
+}
+
+.summary p{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  
+
+}
+
+.preamble p{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.preamble{
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Genos;
+}
+
+.explanation{
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Genos;
+}
+.explanation p{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.participation p{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.participation{
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Genos;
+}
+
+.requirements{
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Genos;
+}
+
+.requirements p{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-selection p{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-selection{
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Genos;
+    
+}
+
+.design-archives p,
+.zen-resources p {
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-archives{
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Genos;
+   
+}
+
+#zen-resources{
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Genos;
+}
+
+aside a {
+  color: #e6d7ff;
 }
 /* Page wrapper */
   
