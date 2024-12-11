@@ -20,8 +20,7 @@
 
 /* Typography */
 body{
-  color: #304529;
-  box-shadow: 0 200px 500px white;
+  color: white;
 }
 
 /* Get your own import URL from Google Fonts */
@@ -41,7 +40,6 @@ h6 {
 /* Background */ /*used W3Schools for help*/
 #css-zen-garden {
     background-image: url("/picsss/rocketspace.jpg");
-    height: 1300px;  
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -58,6 +56,7 @@ h1 ,h2, h3, h4, h5, h6{
     justify-content: center;
     align-items: center;
     font-family: Megrim;
+    color:rgb(99, 3, 48);
 }
 
 .summary{
@@ -179,8 +178,20 @@ h1 ,h2, h3, h4, h5, h6{
     font-family: Genos;
 }
 
-aside a {
-  color: #e6d7ff;
+body a {
+   color: 		rgb(238, 219, 244);
+  background-color: rgba(62, 62, 62, 0.64);
+}
+
+
+
+.page-wrapper{
+   background-color: rgba(196, 196, 196, 0.29);;
+}
+
+.summary, .preamble, .explanation, .participation{
+  line-height: 2px;
+  text-align:start;
 }
 /* Page wrapper */
   
