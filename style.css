@@ -193,5 +193,15 @@ body a {
   line-height: 2px;
   text-align:start;
 }
+
+.explanation::before {
+  content: " ";
+  background-image: url("picsss/astromoon.png");
+  width: 100px;
+  height: 100px;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /* Page wrapper */
   
